@@ -1,7 +1,19 @@
-import React, { PureComponent } from "react";
+import React from "react";
+import IndexClass from "./01-体验hooks/01-class实现计数器";
+import CounterHook from "./01-体验hooks/02-hooks初体验";
+import HooksTwo from "./01-体验hooks/03-counter-hooks";
+import MultHookState from "./02-useState的使用/01-多个状态和复杂状态";
+import ComplexHookState from "./02-useState的使用/02-复杂状态的修改";
+function App() {
+  return (
+    <div>
+      {/* <IndexClass /> */}
+      {/* <CounterHook /> */}
+      {/* <HooksTwo /> */}
 
-export default class App extends PureComponent {
-  render() {
-    return <div>12121</div>;
-  }
+      {/* <MultHookState /> */}
+      <ComplexHookState />
+    </div>
+  );
 }
+export default App;
